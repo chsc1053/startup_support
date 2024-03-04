@@ -25,8 +25,14 @@ Image(Clusters_3)
 ![4](https://github.com/chsc1053/startup_support/assets/83070675/8d28eebc-b2af-4051-8594-b5e721f2c954)
 
 Video(Execution)
-https://github.com/chsc1053/startup_support/assets/83070675/3f968ade-548b-44a1-b5d3-75c7af35f57e
+
+
+https://github.com/chsc1053/startup_support/assets/83070675/fc502a7f-46a3-4f4f-9b66-bf360764aa7f
+
+
 
 Video(Output on Webpage)
-https://github.com/chsc1053/startup_support/assets/83070675/dddf2260-56ab-4d8a-a4e6-85519439cc88
+
+
+https://github.com/chsc1053/startup_support/assets/83070675/882ab093-9b69-4557-ab16-c43790616edb
 
