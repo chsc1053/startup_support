@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cluster Keywords</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Cluster Keywords</h1>
+    <div class="container">
+        <center>
+            <div class="userinput">
+                <form  action="{{ url_for('home') }}" method="POST">
+                    <label  for="keyword">Enter the keyword:</label>
+                    <input type="text" id="keyword" name="keyword" value="{{request.form.keyword if request.form.keyword}}" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            {%if bc%}
+            <div class="result">
+                <h2>Clusters:</h2>
+                <h3>Cluster1</h3>
+                <img src="./../static/images/clusters1.png" align="middle" />
+                <h3>Cluster2</h3>
+                <img src="./../static/images/clusters2.png" align="middle" />
+                <h3>Cluster3</h3>
+                <img src="./../static/images/clusters3.png" align="middle" />
+            </div>
+            {%endif%}
+        </center>
+    </div>
+</body>
+</html>
